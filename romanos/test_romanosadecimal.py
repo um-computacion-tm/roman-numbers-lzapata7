@@ -1,5 +1,5 @@
 import unittest
-from romanos2 import roman_to_decimal
+from romanosadecimal import roman_to_decimal
 class TestRomanToDecimal(unittest.TestCase):
     def test_I(self):
         resultado = roman_to_decimal('I')
